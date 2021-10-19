@@ -30,6 +30,10 @@ public class UIControl : MonoBehaviour
     public string BackBSound;
     [FMODUnity.EventRef]
     public string WeaponBSound;
+    [FMODUnity.EventRef]
+    public string WeaponSelectionBSound;
+    [FMODUnity.EventRef]
+    public string PassTurnBSound;
 
     public GameObject ZoomCamera1 { get => ZoomCamera; set => ZoomCamera = value; }
 
@@ -83,7 +87,7 @@ public class UIControl : MonoBehaviour
     public void WeaponSelection()
     {
         WeaponSelectionButon.interactable = false;
-
+        FMODUnity.RuntimeManager.PlayOneShotAttached(WeaponSelectionBSound, gameObject);
         //Weapon butons start
         spitButon.interactable = true;
         pistol.interactable = true;
@@ -147,6 +151,7 @@ public class UIControl : MonoBehaviour
     }
     public void EndTurn()
     {
+        FMODUnity.RuntimeManager.PlayOneShotAttached(PassTurnBSound, gameObject);
         jumpButon.interactable = false;
         WeaponSelectionButon.interactable = false;
         spitButon.interactable = false;

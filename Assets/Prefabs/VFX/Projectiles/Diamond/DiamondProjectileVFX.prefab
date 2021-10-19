@@ -9751,8 +9751,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageToDeal: 150
   hitVFX: {fileID: 3128010973988408790, guid: 95bd41279c48c3c4da6c568aa8e4001b, type: 3}
-  floorCol: 
-  wallCol: 
+  floorCol: event:/FX/SniperImpact
+  wallCol: event:/FX/WallBouncing
 --- !u!136 &3354489483041107483
 CapsuleCollider:
   m_ObjectHideFlags: 0

@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/Germifmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637701883298625540
+  lastModified: 637702029619417140
   FileSizes:
   - Name: Desktop
     Value: 1564
@@ -262,7 +262,7 @@ MonoBehaviour:
   Path: Assets/Germifmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637701883298585551
+  lastModified: 637702029619407250
   FileSizes:
   - Name: Desktop
     Value: 1616832
@@ -306,7 +306,7 @@ MonoBehaviour:
   - {fileID: -1802159664353297115}
   StringsBanks:
   - {fileID: -8668246463116451103}
-  stringsBankWriteTime: 637701883298625540
+  stringsBankWriteTime: 637702029619417140
   cacheVersion: 8
 --- !u!114 &520521023969007539
 MonoBehaviour:

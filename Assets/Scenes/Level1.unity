@@ -780,7 +780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/Music/NeveraSFX
+  Event: event:/Music/NeveraSFX 2
   PlayEvent: 1
   StopEvent: 2
   AllowFadeout: 1
@@ -3006,6 +3006,8 @@ MonoBehaviour:
   JumpBSound: event:/UI/JumpButtonSFX
   BackBSound: event:/UI/ButtonBackSFX
   WeaponBSound: event:/UI/ShootButtonSFX
+  WeaponSelectionBSound: event:/UI/ButtonSFX
+  PassTurnBSound: event:/UI/ButtonBackSFX
 --- !u!114 &1733503596
 MonoBehaviour:
   m_ObjectHideFlags: 0
