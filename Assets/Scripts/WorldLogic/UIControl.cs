@@ -71,7 +71,6 @@ public class UIControl : MonoBehaviour
             dragScript = teamSelectio.CurentPlayer.GetComponent<Drag>();
             attackScript = teamSelectio.CurentPlayer.GetComponent<Attack>();
             PlayerPanel.SetActive(true);
-            WeaponSelectionPanel.SetActive(false);
             //butons start
             jumpButon.interactable = true;
             WeaponSelectionButon.interactable = true;
