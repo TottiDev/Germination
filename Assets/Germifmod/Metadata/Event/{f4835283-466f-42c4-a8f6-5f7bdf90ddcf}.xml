@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{f4835283-466f-42c4-a8f6-5f7bdf90ddcf}">
 		<property name="name">
 			<value>AimSFX</value>

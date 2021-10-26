@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{fc1408fd-1da2-4e6c-b74c-52351484cf1c}">
 		<property name="name">
 			<value>JumpBacteria</value>

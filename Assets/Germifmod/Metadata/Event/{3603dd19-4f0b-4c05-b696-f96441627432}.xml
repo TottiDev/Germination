@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{3603dd19-4f0b-4c05-b696-f96441627432}">
 		<property name="name">
 			<value>NeveraSFX 2</value>

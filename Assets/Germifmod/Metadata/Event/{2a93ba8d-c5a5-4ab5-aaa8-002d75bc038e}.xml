@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{2a93ba8d-c5a5-4ab5-aaa8-002d75bc038e}">
 		<property name="name">
 			<value>SpitShoot</value>
@@ -153,8 +153,8 @@
 			<value>1</value>
 		</property>
 		<relationship name="modulators">
-			<destination>{ef089978-fa97-4ce8-9c51-32ad8593120e}</destination>
 			<destination>{5ca81ef2-3e7a-4ffd-a103-7671b566a587}</destination>
+			<destination>{ef089978-fa97-4ce8-9c51-32ad8593120e}</destination>
 		</relationship>
 	</object>
 	<object class="DelayEffect" id="{9678b04c-602e-44d2-891e-37874d4b7535}">
@@ -188,20 +188,20 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{86f45868-c3b7-4658-ba34-9b528e344fbc}" />
-	<object class="RandomizerModulator" id="{ef089978-fa97-4ce8-9c51-32ad8593120e}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>pitch</value>
-		</property>
-		<property name="amount">
-			<value>19.5</value>
-		</property>
-	</object>
 	<object class="RandomizerModulator" id="{5ca81ef2-3e7a-4ffd-a103-7671b566a587}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>fftSize</value>
 		</property>
 		<property name="amount">
 			<value>16.5</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{ef089978-fa97-4ce8-9c51-32ad8593120e}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>19.5</value>
 		</property>
 	</object>
 	<object class="Automator" id="{8311d56c-27ee-4fe3-a8db-29554a58a760}">
@@ -217,6 +217,7 @@
 			<destination>{b86a9495-0bd3-475d-bf7e-9f3fcd8e34eb}</destination>
 		</relationship>
 		<relationship name="automationPoints">
+			<destination>{5549a168-75aa-45a4-ad3c-f1a53671dd78}</destination>
 			<destination>{e4b2c9a4-7ed7-48e5-9126-88d65e9ec526}</destination>
 			<destination>{f3fcf667-6f7d-47ce-9556-d5b45c2a62ea}</destination>
 			<destination>{7617c571-3ee8-406b-9b80-b8b0cae654e3}</destination>
@@ -228,10 +229,17 @@
 			<destination>{aa6ce5df-dc65-4e37-a67a-610f1c76abc1}</destination>
 			<destination>{2b3b7bba-9653-4839-9a66-9fcd1fe4d515}</destination>
 			<destination>{12c217fe-9815-4d49-9fc6-a48b50ff550e}</destination>
-			<destination>{5549a168-75aa-45a4-ad3c-f1a53671dd78}</destination>
 			<destination>{132ac825-87a5-4df7-acd1-0900a1d50a52}</destination>
 			<destination>{a49464b4-6f16-4592-96f9-a15bc334e86a}</destination>
 		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{5549a168-75aa-45a4-ad3c-f1a53671dd78}">
+		<property name="position">
+			<value>0.39000000000000001</value>
+		</property>
+		<property name="value">
+			<value>-65</value>
+		</property>
 	</object>
 	<object class="AutomationPoint" id="{e4b2c9a4-7ed7-48e5-9126-88d65e9ec526}">
 		<property name="position">
@@ -319,14 +327,6 @@
 		</property>
 		<property name="value">
 			<value>45</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{5549a168-75aa-45a4-ad3c-f1a53671dd78}">
-		<property name="position">
-			<value>0.39000000000000001</value>
-		</property>
-		<property name="value">
-			<value>-65</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{132ac825-87a5-4df7-acd1-0900a1d50a52}">
