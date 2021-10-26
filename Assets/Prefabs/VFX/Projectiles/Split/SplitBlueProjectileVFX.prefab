@@ -108,6 +108,7 @@ MonoBehaviour:
   hitVFX: {fileID: 3707039816863422156, guid: df5bb7fab644dde4f94551fbf72c20eb, type: 3}
   floorCol: event:/FX/SpitImpact
   wallCol: event:/FX/WallBouncing
+  DamageSound: event:/FX/BacteriaDamage
 --- !u!135 &3158581680043861905
 SphereCollider:
   m_ObjectHideFlags: 0

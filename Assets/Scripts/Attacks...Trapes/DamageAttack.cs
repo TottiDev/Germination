@@ -15,6 +15,8 @@ public class DamageAttack : MonoBehaviour
     public string floorCol;
     [FMODUnity.EventRef]
     public string wallCol;
+    [FMODUnity.EventRef]
+    public string DamageSound;
     private void Start()
     {
         turnControl = GameObject.FindGameObjectWithTag("MainCinemachineCamera").GetComponent<TurnControl>();
@@ -34,6 +36,7 @@ public class DamageAttack : MonoBehaviour
         //Berifica si golpeo al jugador toma su script de HP y le pasa un balor de daño a recivir
         if (collision.gameObject.tag == "Player")
         {
+            FMODUnity.RuntimeManager.PlayOneShotAttached(DamageSound, gameObject);
             hpScript = collision.transform.GetComponent<HP>();
             hpScript.TackeDamage(damageToDeal);
             GameObject hit = Instantiate(hitVFX, transform.position, Quaternion.identity) as GameObject;

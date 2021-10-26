@@ -9753,6 +9753,7 @@ MonoBehaviour:
   hitVFX: {fileID: 3128010973988408790, guid: 95bd41279c48c3c4da6c568aa8e4001b, type: 3}
   floorCol: event:/FX/SniperImpact
   wallCol: event:/FX/WallBouncing
+  DamageSound: event:/FX/BacteriaDamage
 --- !u!136 &3354489483041107483
 CapsuleCollider:
   m_ObjectHideFlags: 0

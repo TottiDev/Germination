@@ -186,6 +186,7 @@ MonoBehaviour:
   isCapitan: 0
   VictoryUI: {fileID: 0}
   VictorySound: event:/UI/Victory
+  DamageSound: event:/FX/BacteriaDamage
 --- !u!114 &-7804504694676846152
 MonoBehaviour:
   m_ObjectHideFlags: 0
